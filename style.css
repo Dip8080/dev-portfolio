@@ -9,9 +9,9 @@ h1{
 .orange{
     color: rgb(119, 0, 255);
 }
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 500px;
+    margin-bottom: 90px;
 }
 .half-width{
     width: 50%;
@@ -51,4 +51,30 @@ section {
     background:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.ex_area{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+
+}
+.card{
+    border-left:8px solid rgb(255, 115, 0) ;
+    padding: 8px;
+    margin-left: 7%;
+    background-color: grey;
+    opacity: .8;
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+}
+
+#noob_card{
+    border-left:8px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
 }
